@@ -4,7 +4,7 @@ import { Quote } from "lucide-react";
 const testimonials = [
   {
     id: 1,
-    text: "Working with her was transformative — every detail told a story. The final result exceeded all our expectations.",
+    text: "Working with him was transformative — every detail told a story. The final result exceeded all our expectations.",
     author: "Sarah Mitchell",
     role: "Residential Client",
   },
@@ -16,7 +16,7 @@ const testimonials = [
   },
   {
     id: 3,
-    text: "The level of sophistication and thoughtfulness in every design decision was remarkable. Truly a master of her craft.",
+    text: "The level of sophistication and thoughtfulness in every design decision was remarkable. Truly a master of him craft.",
     author: "Elena Rodriguez",
     role: "Interior Design Enthusiast",
   },
