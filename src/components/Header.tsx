@@ -55,7 +55,7 @@ export const Header = () => {
               isScrolled ? "text-navy" : "text-white"
             }`}
           >
-            Portfolio Studio
+            Ashok's Design Studio
           </span>
         </button>
 
