@@ -4,7 +4,9 @@ import logo from "@/assets/logo.png";
 
 const navLinks = [
   { name: "Home", href: "#" },
-  { name: "About", href: "#about" },
+  { name: "Studio", href: "#studio" },
+  { name: "Ideas", href: "#ideas" },
+  { name: "Services", href: "#services" },
   { name: "Portfolio", href: "#portfolio" },
   { name: "Contact", href: "#contact" },
 ];
@@ -43,29 +45,13 @@ export const Header = () => {
         {/* Logo */}
         <button
           onClick={() => scrollToSection("#")}
-          className="flex items-center gap-3 group"
+          className="group"
         >
           <img
             src={logo}
-            alt="Logo"
-            className="w-10 h-10 transition-transform duration-300 group-hover:scale-110"
+            alt="Ashoks Design Studio"
+            className="w-16 h-16 transition-transform duration-300 group-hover:scale-110"
           />
-          <div className="flex flex-col">
-            <span
-              className={`font-serif text-xl font-bold transition-colors duration-300 ${
-                isScrolled ? "text-navy" : "text-white"
-              }`}
-            >
-              Ashoks Design Studio
-            </span>
-            <span
-              className={`font-sans text-[10px] tracking-widest uppercase transition-colors duration-300 ${
-                isScrolled ? "text-navy/70" : "text-white/70"
-              }`}
-            >
-              Dream to Reality
-            </span>
-          </div>
         </button>
 
         {/* Desktop Navigation */}
