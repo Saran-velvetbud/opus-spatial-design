@@ -54,8 +54,8 @@ export default {
         },
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
-        serif: ['Playfair Display', 'Georgia', 'serif'],
+        sans: ['Sawarabi Gothic', 'system-ui', 'sans-serif'],
+        serif: ['Kalnia', 'Georgia', 'serif'],
       },
       borderRadius: {
         lg: "var(--radius)",

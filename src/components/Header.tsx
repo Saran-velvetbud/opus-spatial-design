@@ -50,13 +50,22 @@ export const Header = () => {
             alt="Logo"
             className="w-10 h-10 transition-transform duration-300 group-hover:scale-110"
           />
-          <span
-            className={`font-serif text-xl font-bold transition-colors duration-300 ${
-              isScrolled ? "text-navy" : "text-white"
-            }`}
-          >
-            Ashok's Design Studio
-          </span>
+          <div className="flex flex-col">
+            <span
+              className={`font-serif text-xl font-bold transition-colors duration-300 ${
+                isScrolled ? "text-navy" : "text-white"
+              }`}
+            >
+              Ashoks Design Studio
+            </span>
+            <span
+              className={`font-sans text-[10px] tracking-widest uppercase transition-colors duration-300 ${
+                isScrolled ? "text-navy/70" : "text-white/70"
+              }`}
+            >
+              Dream to Reality
+            </span>
+          </div>
         </button>
 
         {/* Desktop Navigation */}
