@@ -50,7 +50,7 @@ export const Header = () => {
           <img
             src={logo}
             alt="Ashoks Design Studio"
-            className="w-16 h-16 transition-transform duration-300 group-hover:scale-110"
+            className="w-24 h-24 transition-transform duration-300 group-hover:scale-110"
           />
         </button>
 
